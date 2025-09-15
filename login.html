@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login — Campus Grievance Portal</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+    h1 { margin-bottom: 30px; }
+    .form { display: flex; flex-direction: column; align-items: center; gap: 15px; }
+    input { width: 250px; height: 35px; font-size: 14px; padding: 5px; }
+    button { width: 200px; height: 45px; font-size: 16px; cursor: pointer; }
+    nav { margin-top: 30px; }
+  </style>
+</head>
+<body>
+  <h1>Login</h1>
+  <div class="form">
+    <input type="text" placeholder="Username" />
+    <input type="password" placeholder="Password" />
+    <!-- Directs user to Dashboard -->
+    <button onclick="window.location.href='dashboard.html'">Login</button>
+  </div>
+</body>
+</html>
